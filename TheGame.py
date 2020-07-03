@@ -233,7 +233,7 @@ def combat() -> None:
                 print("Вам удалось уклониться от атаки врага")
                 continue
             else:
-                print("Потрачено")
+                print("Вас убили, игра окончена")
                 sys.exit()
         elif hero_player.strength >= enemy.health:
             print('Вы нанесли {} урона по врагу'.format(hero_player.strength))
